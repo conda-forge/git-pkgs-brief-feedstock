@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.0"
+  version: "0.14.2"
 
 package:
   name: git-pkgs-brief
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/git-pkgs/brief/archive/v${{ version }}.tar.gz
-  sha256: c5b9e56fac95826fc9a26e3c0427ce08ca1b7ce6f7b1c316270c316a8bca9741
+  sha256: e01028fc5bc79a49b76b0804325ea5b12796c3275799f82b89e4cc0717bc3bb5
 
 build:
   number: 0
